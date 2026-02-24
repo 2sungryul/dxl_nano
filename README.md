@@ -2,32 +2,25 @@
 
 ros2 dxl test program on jetson nano 
 
-# run dxl subscriber on Jetson nano
 
+
+# run dxl subscriber on Raspberry Pi5
+```bash
 $ cd ~/ros2_ws/src
-
 $ git clone https://github.com/2sungryul/dxl_nano.git
-
 $ cd ~/ros2_ws
-
 $ colcon build --symlink-install --packages-select dxl_nano
-
 $ source install/local_setup.bash
-
 $ sudo chmod a+rw /dev/ttyUSB0
-
 $ ros2 run dxl_nano sub
+```
 
 # run dxl publisher on WSL2-Ubuntu 20.04
-
+```bash
 $ cd ~/ros2_ws/src
-
 $ git clone https://github.com/2sungryul/dxl_wsl.git
-
 $ cd ~/ros2_ws
-
 $ colcon build --symlink-install --packages-select dxl_wsl
-
 $ source install/local_setup.bash
-
 $ ros2 run dxl_wsl pub
+```
