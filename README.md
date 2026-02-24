@@ -1,6 +1,6 @@
 # dxl_nano
 
-ros2 dxl test program on jetson nano 
+ros2 dxl test program on Raspberry Pi5
 
 # 확인사항
 - RaspberryPi5-ubuntu24.04와 Wsl2-ubuntu24.04가 같은 네트워크에 연결되어 있는지?
