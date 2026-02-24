@@ -12,7 +12,7 @@ $ ifconfig #ip주소의 앞3자리가 같아야함
 $ echo $ROS_DOMAIN_ID
 ```
 
-# run dxl subscriber on Raspberry Pi5
+# run dxl subscriber on Raspberry Pi5-ubuntu24.04
 ```bash
 $ cd ~/ros2_ws/src
 $ git clone https://github.com/2sungryul/dxl_nano.git
